@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API.Backend.Aplicacion.Interfaz\API.Backend.Aplicacion.Interfaz.csproj" />
+    <ProjectReference Include="..\API.Backend.Dominio.Entidades\API.Backend.Dominio.Entidades.csproj" />
+    <ProjectReference Include="..\API.Backend.Dominio.Interfaz\API.Backend.Dominio.Interfaz.csproj" />
+    <ProjectReference Include="..\API.Backend.Dominio.Servicios\API.Backend.Dominio.Servicios.csproj" />
+  </ItemGroup>
+
+</Project>
